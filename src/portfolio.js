@@ -1,19 +1,20 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://spacestatic.com/',
+  title: 'LogicVirus Portfolio',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Josh Perry',
+  role: 'Software Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Experienced Software Engineer specializing in front-end development and modern JavaScript frameworks. Passionate about building scalable web applications with a focus on clean design and functionality.',
+  resume: 'https://spacestatic.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    twitter: 'https://x.com/joshperry0', // Add your Twitter/X link here
+    github: 'https://github.com/LogicVirus',
+    ecommerce: 'https://blog-with-comments-cqmnhixg3-logicvirus.vercel.app/store',
   },
 }
 
@@ -21,28 +22,20 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Portfolio Website',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A responsive portfolio website to showcase my projects and skills. Built using modern web technologies for a seamless user experience.',
+    stack: ['TypeScript', 'HTML', 'CSS', 'JavaScript', 'Bun'],
+    sourceCode: 'https://github.com/LogicVirus/portfolio-website',
+    livePreview: 'https://spacestatic.com',
   },
   {
-    name: 'Project 2',
+    name: 'E-commerce Store',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'A fully functional e-commerce store with product listings, shopping cart, and checkout functionality.',
     stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/LogicVirus/blog-with-comments',
+    livePreview: 'https://blog-with-comments-cqmnhixg3-logicvirus.vercel.app/',
   },
 ]
 
@@ -54,18 +47,15 @@ const skills = [
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
   'SASS',
   'Material UI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Node.js',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'joshperry2013@gmail.com',
 }
 
 export { header, about, projects, skills, contact }

@@ -1,5 +1,6 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import TwitterIcon from '@material-ui/icons/Twitter' // Import TwitterIcon
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart'; // Import ShoppingCartIcon
 import { about } from '../../portfolio'
 import './About.css'
 
@@ -10,7 +11,7 @@ const About = () => {
     <div className='about center'>
       {name && (
         <h1>
-          Hi, I am <span className='about__name'>{name}.</span>
+          Hello World, I am <span className='about__name'>{name}.</span>
         </h1>
       )}
 
@@ -38,13 +39,23 @@ const About = () => {
               </a>
             )}
 
-            {social.linkedin && (
+            {social.twitter && (
               <a
-                href={social.linkedin}
-                aria-label='linkedin'
+                href={social.twitter}
+                aria-label='twitter'
                 className='link link--icon'
               >
-                <LinkedInIcon />
+                <TwitterIcon />
+              </a>
+            )}
+            
+            {social.ecommerce && (
+              <a
+                href={social.ecommerce}
+                aria-label='ecommerce'
+                className='link link--icon'
+              >
+                <ShoppingCartIcon />
               </a>
             )}
           </>

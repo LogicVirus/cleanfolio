@@ -3,10 +3,10 @@ import './Footer.css'
 const Footer = () => (
   <footer className='footer'>
     <a
-      href='https://github.com/rjshkhr/cleanfolio'
+      href='https://blog-with-comments-cqmnhixg3-logicvirus.vercel.app/store'
       className='link footer__link'
     >
-      Created By Raj Shekhar
+      Josh Perry | Hosted via Starlink
     </a>
   </footer>
 )
